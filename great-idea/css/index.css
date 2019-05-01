@@ -63,4 +63,192 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body{
+	max-width: 880px;
+	margin: auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: start;
+	align-items: center;
+	padding: 0px 0px;
+	margin: 0px -30px;
+}
+
+header img {
+	padding: 0px 0px 0px 5px;
+}
+
+header a{
+	padding: 20px 35px;
+	/* font-family: Arial; */
+	font-size: 15px;
+	color: #bfbfbf;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+header a:hover{
+	color: #3c3c3c;
+}
+
+h1{
+	font-size: 70px;
+	overflow-wrap: break-word;
+}
+
+.inline-together{
+	text-align: center;
+	margin: auto;
+	padding: 40px 80px 85px 80px;
+}
+
+.inline-together2{
+    text-align: center;
+    margin: auto;
+    padding: 0px 80px 0px 80px;
+    height: 50%;
+    vertical-align: top;
+    width: 45%;
+}
+
+
+.datButton{
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px 40px;
+	text-align: center;
+}
+
+.box-width{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+hr {
+	display: block;
+	margin: auto;
+	width: 100%;
+	border-width: .5px;
+	color: black;
+	border-style: solid;
+}
+
+.inline-services{
+	padding: 20px 40px 20px 0px;
+	width: 475px;
+	height: 175px;
+}
+
+.middle-img{
+	display: flex;
+	justify-content: center;
+}
+
+.services-header-img{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.inline-services2{
+	padding: 20px 40px 20px 0px;
+	width: 320px;
+	height: 175px;
+}
+
+.copyright{
+text-align: center;
+font-size: 12px;
+padding: 20px 0px;
+}
+
+.servicesFont{
+	font-size: 30px;
+	padding: 30px 0px 0px 0px;
+}
+
+.servicesIntro{
+	padding: 0px 0px 40px 0px;
+}
+
+.serviceBox{
+	padding: 30px;
+	background-color: #f2f2f2;
+	border: black solid .5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
+	margin-bottom: 40px;
+}
+
+.sectionRows .serviceBox:first-child{
+	margin-right: 20px;
+}
+
+.learn-more-btn{
+	font-size: 11px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 50px;
+	border: black solid .5px;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.learn-more-btn:hover{
+	background-color: black;
+	color: white;
+}
+
+.sectionRows{
+	display: flex;
+	justify-content: space-between;
+}
+
+.thickerLine{
+	display: block;
+	margin: auto;
+	width: 100%;
+	border-width: 1px;
+	color: black;
+	border-style: solid;
+	margin-bottom: 40px;
+}
+
+.topLine{
+	margin-bottom: 40px;
+}
+
+.someFacts{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+
+.someFacts p{
+	padding: 0px 50px 0px 0px;
+}
+
+.factsList{
+	padding: 20px 0px 0px 20px;
+
+}
+
+li{
+	list-style-type: square;
+	line-height: 1.5em;
+}
+
+.copyrightBot{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
